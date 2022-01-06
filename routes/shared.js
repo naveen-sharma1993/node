@@ -1,7 +1,9 @@
 var mongo = require("mongodb");
 
 function getMongoCon(res, cb) {
-  var url = "mongodb://localhost:27017";
+  //var url = "mongodb://localhost:27017";
+  var url =
+    "mongodb+srv://nav:nav@cluster0.hloou.mongodb.net/onlinetest?retryWrites=true&w=majority";
 
   var mongoClient = mongo.MongoClient;
 
